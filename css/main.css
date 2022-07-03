@@ -1,0 +1,281 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  width: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-info {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.gradient {
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
+
+.underline-border {
+  border-bottom: 2px solid #85c0fc;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image: url("../img/hero-img.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+
+.navbar .nav-link {
+  font-size: 2rem;
+  font-weight: bold;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+  color: #85c0fc;
+}
+
+.main-padding {
+  padding: 0 100px;
+}
+
+.aboutus h2 {
+  color: #85c0fc;
+}
+
+.aboutus .aboutus-hero {
+  width: 100%;
+  height: 300px;
+  background-image: url("/img/aboutus-img.jpg");
+  background-size: cover;
+  background-position: 80%;
+}
+
+.aboutus .aboutus-main-text {
+  font-size: 2rem;
+}
+
+.aboutus .aboutus-footer-text {
+  font-size: 1.6rem;
+}
+
+.aboutus .btn {
+  font-size: 1.6rem;
+  background-color: #85c0fc;
+}
+
+.carousel .carousel-img-one {
+  background-image: url("/img/mountain-climbing-2124113_1280.jpg");
+  background-position: 50% 80%;
+}
+
+.carousel .carousel-img-two {
+  background-image: url("/img/landscape-6692712_1280.jpg");
+  background-position: 50% 70%;
+}
+
+.carousel .carousel-img-three {
+  background-image: url("/img/rock-climbing-2264698_1280.jpg");
+  background-position: 50% 50%;
+}
+
+.carousel .carousel-item {
+  position: relative;
+  height: 300px;
+}
+
+.carousel .carousel-item h5 {
+  font-size: 2.5rem;
+}
+
+.carousel .carousel-item p {
+  font-size: 1.6rem;
+}
+
+.price .card {
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.price h2 {
+  color: #85c0fc;
+}
+
+.price h5 {
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+
+.price p {
+  font-size: 1.4rem;
+}
+
+.price i {
+  font-size: 5rem;
+}
+
+.price .difould {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.price hr {
+  color: #85c0fc;
+}
+
+.price .btn {
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  background-color: #85c0fc;
+}
+
+.team {
+  position: relative;
+  background-image: url("../img/team/office-1516329_1920.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+.team .team-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.team h2 {
+  color: #85c0fc;
+}
+
+.team .card {
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.team .card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 300px;
+}
+
+.team .card .card-title {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.team .card i {
+  font-size: 1.8rem;
+  padding: 10px;
+  color: #85c0fc;
+}
+
+.team .card h5 {
+  font-size: 1.8rem;
+}
+
+.team .card p {
+  font-size: 1.2rem;
+}
+
+.team .card:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+.contact h2 {
+  color: #85c0fc;
+}
+
+.contact h4 {
+  font-size: 2rem;
+}
+
+.contact i {
+  font-size: 9rem;
+  margin: auto 0;
+  color: #85c0fc;
+}
+
+.contact .card .btn {
+  padding: 10px 5px;
+  background-color: #85c0fc;
+  font-size: 1.4rem;
+}
+
+.contact p {
+  font-size: 1.4rem;
+}
+
+.contact label {
+  font-size: 1.4rem;
+}
+
+footer {
+  background-color: #85c0fc;
+}
+
+footer p {
+  color: white;
+  font-size: 1.4rem;
+}
+
+@media (max-width: 768px) {
+  .gradient {
+    margin: auto;
+  }
+  .hero {
+    height: 200px;
+  }
+  .main-padding {
+    padding: 0 5px;
+  }
+  .carousel .carousel-img-one {
+    background-position: 62.5% 80%;
+  }
+  .carousel .carousel-img-two {
+    background-position: 50% 70%;
+  }
+  .carousel .carousel-img-three {
+    background-position: 65% 50%;
+  }
+}
+
+@media (max-width: 992px) {
+  .price .difould {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  .main-padding {
+    padding: 0 15px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

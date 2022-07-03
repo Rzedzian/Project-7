@@ -1,0 +1,260 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	width: 100%;
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+.top-info {
+	font-size: 4rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.gradient {
+	background-color: #ffffff;
+	background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
+.underline-border {
+	border-bottom: 2px solid rgb(133, 192, 252);
+}
+
+.hero {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background-image: url('../img/hero-img.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.navbar {
+	position: sticky;
+	top: 0;
+	background-color: white;
+	z-index: 1;
+
+	.nav-link {
+		font-size: 2rem;
+		font-weight: bold;
+		transition: color 0.3s;
+	}
+	.nav-link:hover {
+		color: rgb(133, 192, 252);
+	}
+}
+
+.main-padding {
+	padding: 0 100px;
+}
+
+.aboutus {
+	h2 {
+		color: rgb(133, 192, 252);
+	}
+	.aboutus-hero {
+		width: 100%;
+		height: 300px;
+		background-image: url('/img/aboutus-img.jpg');
+		background-size: cover;
+		background-position: 80%;
+	}
+	.aboutus-main-text {
+		font-size: 2rem;
+	}
+	.aboutus-footer-text {
+		font-size: 1.6rem;
+	}
+	.btn {
+		font-size: 1.6rem;
+		background-color: rgb(133, 192, 252);
+	}
+}
+
+.carousel {
+	.carousel-img-one {
+		background-image: url('/img/mountain-climbing-2124113_1280.jpg');
+		background-position: 50% 80%;
+	}
+	.carousel-img-two {
+		background-image: url('/img/landscape-6692712_1280.jpg');
+		background-position: 50% 70%;
+	}
+	.carousel-img-three {
+		background-image: url('/img/rock-climbing-2264698_1280.jpg');
+		background-position: 50% 50%;
+	}
+	.carousel-item {
+		position: relative;
+		height: 300px;
+		h5 {
+			font-size: 2.5rem;
+		}
+		p {
+			font-size: 1.6rem;
+		}
+	}
+}
+
+.price {
+	.card {
+		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+	}
+	h2 {
+		color: rgb(133, 192, 252);
+	}
+	h5{
+		font-weight: bold;
+		font-size: 2.3rem;
+	}
+	p {
+		font-size: 1.4rem;
+	}
+	i {
+		font-size: 5rem;
+	}
+	.difould {
+		transform: scale(1.1);
+	}
+	hr {
+		color: rgb(133, 192, 252);
+	}
+	.btn {
+		transition: background-color 0.3s;
+		background-color: rgb(133, 192, 252);
+	}
+}
+
+.team {
+	position: relative;
+	background-image: url('../img/team/office-1516329_1920.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	z-index: 0;
+
+	.team-shadow {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.5);
+		z-index: -1;
+	}
+
+	h2 {
+		color: rgb(133, 192, 252);
+	}
+
+	.card {
+		transition: transform 0.3s;
+
+		img {
+			object-fit: cover;
+			height: 300px;
+		}
+
+		.card-title {
+			text-transform: uppercase;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+
+		i {
+			font-size: 1.8rem;
+			padding: 10px;
+			color: rgb(133, 192, 252);
+		}
+
+		h5 {
+			font-size: 1.8rem;
+		}
+
+		p {
+			font-size: 1.2rem;
+		}
+	}
+
+	.card:hover {
+		transform: scale(0.95);
+	}
+}
+
+.contact {
+	h2 {
+		color: rgb(133, 192, 252);
+	}
+	h4 {
+		font-size: 2rem;
+	}
+	i {
+		font-size: 9rem;
+		margin: auto 0;
+		color: rgb(133, 192, 252);
+	}
+	.card {
+		.btn {
+			padding: 10px 5px;
+			background-color: rgb(133, 192, 252);
+			font-size: 1.4rem;
+		}
+	}
+
+	p {
+		font-size: 1.4rem;
+	}
+
+	label {
+		font-size: 1.4rem;
+	}
+}
+
+footer {
+	background-color: #85c0fc;
+	
+	p {
+		color: white;
+		font-size: 1.4rem;
+	}
+}
+
+
+@media (max-width: 768px) {
+	.gradient {
+		margin: auto;
+	}
+	.hero {
+		height: 200px;
+	}
+	.main-padding {
+		padding: 0 5px;
+	}
+	.carousel {
+		.carousel-img-one {
+			background-position: 62.5% 80%;
+		}
+		.carousel-img-two {
+			background-position: 50% 70%;
+		}
+		.carousel-img-three {
+			background-position: 65% 50%;
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	.price {
+		.difould {
+			transform: scale(1);
+		}
+	}
+	.main-padding {
+		padding: 0 15px;
+	}
+}

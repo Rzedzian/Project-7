@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,100&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f65dd01f12.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="90">
+        <header>
+            <div class="container hero" id="home">
+            </div>
+        </header>
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+            <div class="container py-4">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav m-auto">
+                        <a class="nav-link active px-5" href="#home">Home</a>
+                        <a class="nav-link px-5" href="#aboutus">O nas</a>
+                        <a class="nav-link px-5" href="#price">Cennik</a>
+                        <a class="nav-link px-5" href="#team">Zespół</a>
+                        <a class="nav-link px-5 " href="#contact">Kontakt</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <section class="aboutus" id="aboutus">
+                <div class="container main-padding py-5 underline-border">
+                    <div>
+                        <h2 class="text-uppercase fw-bold display-3 text-center text-md-start">o firmie</h2>
+                        <div class="row py-5">
+                            <div class="col-md-4 col-sm-0">
+                                <div class="aboutus-hero h-100 d-sm-none d-md-block"></div>
+                            </div>
+                            <div class="col-md-8 ps-md-5 d-flex flex-column justify-content-evenly col-sm-12">
+                                <p class="aboutus-main-text text-center text-md-start">Lorem ipsum dolor sit amet,
+                                    consectetur adipisicing elit.
+                                    Fugiat, nulla atque, nihil earum voluptates voluptatem labore molestiae eligendi
+                                    doloremque praesentium mollitia placeat. Consequuntur iusto, repellendus ad eos at
+                                    cum a?</p>
+                                <div class="my-5 d-flex flex-column flex-md-row align-items-center">
+                                    <p class="aboutus-footer-text mb-sm-5 mb-md-0 text-center text-md-start text-muted">Lorem ipsum
+                                        dolor sit amet consectetur
+                                        adipisicing elit. Cum eos atque qui.</p>
+                                    <button class="btn px-5"> Kontakt</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="carouselExampleCaptions" class="carousel slide py-5" data-bs-ride="true">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active carousel-img-one">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>First slide label</h5>
+                                    <p>Some representative placeholder content for the first slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item carousel-img-two">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Second slide label</h5>
+                                    <p>Some representative placeholder content for the second slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item carousel-img-three">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Third slide label</h5>
+                                    <p>Some representative placeholder content for the third slide.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="price" id="price">
+                <div class="container py-5 main-padding underline-border">
+                    <h2 class="text-uppercase fw-bold display-4 text-center text-md-start">cennik</h2>
+                    <div class="row py-5 justify-content-around">
+                        <div class="col-lg col-md-6 h-50 my-3">
+                            <div class="card">
+                                <div class="card-body text-center row d-flex justify-content-center">
+                                    <h5 class="card-title fw-bold py-3">Usługa 1</h5>
+                                    <p class="card-text py-3">This is a longer card with supporting text below as a
+                                        natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <hr>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <i class="fa-solid fa-person-hiking py-3"></i>
+                                    <button class="btn text-uppercase w-75 py-3 m-3">wybieram</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg col-md-8 order-md-1 order-lg-0 difould h-50 my-3 mx-lg-4">
+                            <div class="card">
+                                <div class="card-body text-center row d-flex justify-content-center">
+                                    <h5 class="card-title fw-bold py-3">Usługa 2</h5>
+                                    <p class="card-text py-3">This is a longer card with supporting text below as a
+                                        natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <hr>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <i class="fa-solid fa-mountain-sun py-3"></i>
+                                    <button class="btn text-uppercase w-75 py-3 m-3">wybieram</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg h-50 col-md-6 my-3">
+                            <div class="card">
+                                <div class="card-body text-center row d-flex justify-content-center">
+                                    <h5 class="card-title fw-bold py-3">Usługa 3</h5>
+                                    <p class="card-text py-3">This is a longer card with supporting text below as a
+                                        natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <hr>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <i class="fa-solid fa-mountain py-3"></i>
+                                    <button class="btn text-uppercase w-75 py-3 m-3">wybieram</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="team" class="team py-5">
+                <div class="container main-padding underline-border">
+                    <h2 class="text-uppercase fw-bold display-4 text-center text-md-start">team</h2>
+                    <div class="row py-5">
+                        <div class="col-12 col-md-6 col-lg-3 my-3 p-0">
+                            <div class="card mx-3 h-100">
+                                <img src="img/woman-1274056_1280.jpg" class="card-img-top"
+                                    alt="Pracownik biura z naklejką na czole">
+                                <div class="card-body">
+                                    <h5 class="card-title">ceo</h5>
+                                    <p class="card-text">Szef szefów. Nikt nmie zna jego imienia. Podwładni mówią na
+                                        niego
+                                        "Pan
+                                        Prezes"</p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-around">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 my-3 p-0">
+                            <div class="card mx-3 h-100">
+                                <img src="img/beard-1845166_1280.jpg" class="card-img-top"
+                                    alt="Twarz kobiety w promieniach słońca">
+                                <div class="card-body">
+                                    <h5 class="card-title">hr</h5>
+                                    <p class="card-text">Karol zajmuje się rekrutowaniem młodych i gniewnych talentów.
+                                    </p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-around">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 my-3 p-0">
+                            <div class="card mx-3 h-100">
+                                <img src="img/man-613601_1280.jpg" class="card-img-top"
+                                    alt="Pracownik biura siedzący przy laptopie">
+                                <div class="card-body">
+                                    <h5 class="card-title">tomek</h5>
+                                    <p class="card-text">To jest Tomek. Nikt oprócz prezesa nie wie, czym się zajmuje
+                                        Tomek
+                                    </p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-around">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 my-3 p-0">
+                            <div class="card mx-3 h-100">
+                                <img src="img/photographer-407068_1280.jpg" class="card-img-top"
+                                    alt="Dwie kobiety w pracy patrzące w monitor komputera">
+                                <div class="card-body">
+                                    <h5 class="card-title">dział jakości</h5>
+                                    <p class="card-text">Ania sprawdza starannie i za każdym razem każdy nasz produkt oraz projekty.</p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-around">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact" id="contact">
+                <div class="container main-padding py-5">
+                    <h2 class="text-uppercase fw-bold display-4 text-center text-md-start">kontakt</h2>
+                    <div class="row py-5">
+                        <div class="col col-lg-4 text-center my-5 my-md-0">
+                            <div class="card p-5 h-100">
+                                <h4 class="fw-bold text-uppercase py-3">adres</h4>
+                                <p>Tomaszewska 38</p>
+                                <p>Cirki 01-342</p>
+                                <p>+48 503 123 465</p>
+                                <p>mail@mail.com</p>
+                                <i class="fa-solid fa-mountain"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-7 text-center">
+                            <div class="card p-5">
+                                <h4 class="text-uppercase fw-bold">Formularz kontaktowy</h4>
+                                <form>
+                                    <div class="card-body row">
+                                        <div class="col-lg-6 mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Imię i
+                                                nazwisko</label>
+                                            <input type="name" class="form-control" id="exampleFormControlInput1">
+                                        </div>
+                                        <div class="col-lg-6 mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Adres
+                                                mailowy</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1">
+                                        </div>
+                                        <div class="col-lg-12 mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Wybierz
+                                                temat</label>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected class="text-center">-lista rozwijana-</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-12 mb-3">
+                                            <label for="exampleFormControlTextarea1" class="form-label">Wpisz treść
+                                                wiadomości</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1"
+                                                rows="7"></textarea>
+                                        </div>
+                                        <div class=" mt-3"><button class="btn" type="submit">Wyślij!</button></div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p class="py-5 mb-0 text-center">&copy; 2022 Copyright Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore blanditiis distinctio dolore.</p> 
+        </footer>
+    
+    <script src="js/slicksettings.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
